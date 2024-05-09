@@ -1,5 +1,6 @@
 what is vim editor
 
+Note while you do `git commit` after that vim editor opens, so firstly then click 'i' and then after write commit message then after that click esc , which is located in upper left area of keyboard after that write ":wq" and press enter
 
 1.  `git init` -> powers your folder to be managed by git, and initalises a new empty repositary. It also creates a .git folder that has all the relevant logic to manage versions of your project. If we again give git init command then it will reinitalized the existing git repositary
 
@@ -22,3 +23,6 @@ what is vim editor
 9. `git log` --> list downs all the commits of the repositary. if you want to exit out of git log prompt press 'q'
 
 10. `git restore <file>` --> it remove all files changes from the staging area to be committed. this can be useful if we wrote some dirty piece of code and now no more want it. Instead of deleting every change line by line we can use `git restore` and it will restore last clean version of the file.
+
+11. `git restore --staged <file>` --> it move back the file changes from staging area to the working area.
+this only works if changes are in your staging area
