@@ -28,4 +28,4 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 this only works if changes are in your staging area
 
 12. Diff between git rm and git restore
-ans:
+ans: if you want to move the whole file back to the untracked state(working state), then we do git rm, otherwise if we just want to remove the changes in working area then we do git restore.
