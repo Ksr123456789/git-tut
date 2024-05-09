@@ -41,7 +41,7 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 
 18. `git remote rm <name of remote>` : this command deletes remote connection
 
-19. `git remote rename <oldname> <newname> : this command renames the remote connection
+19. `git remote rename <oldname> <newname> : this command renames the remote connection.
 
 NOTE :- The name of the remote connection is always used to establish communication between the repos
 
@@ -57,6 +57,6 @@ NOTE :- The name of the remote connection is always used to establish communicat
 -git add <file>
 -git commit
 -git pull
--git push
+-git push 23. --> merge conflicts are very common scenario.
 
 merge conflicts can occur if multiple people try to make changes to the same file and then collaborate.
