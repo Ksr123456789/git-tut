@@ -26,3 +26,6 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 
 11. `git restore --staged <file>` --> it move back the file changes from staging area to the working area.
 this only works if changes are in your staging area
+
+12. Diff between git rm and git restore
+ans:
