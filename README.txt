@@ -33,3 +33,18 @@ ans: if you want to move the whole file back to the untracked state(working stat
 13. `git diff commit1 commit2` --> gives the difference of all file changes between two commits
 
 14. `git commit -m <"your commit message">` --> if we want to avoid opening a text editor line  vim/nano to add commit message we can use this following command
+
+15. `git remote`  --> list down all the remote connection names
+
+     here remote means which is present somewhere else
+
+
+16. Remote connection --> link two git repositaries for uploading and downloading changes from each other 
+
+17. `git remote add <name of remote> <link of remote>` --> this command helps us to add a new link to the remote repo and give a name to it
+
+18. `git remote rm <name of remote>`  : this command deletes remote connection
+
+19. `git remote rename <oldname> <newname>  : this command renames the remote connection
+
+NOTE :- The name of the remote connection is always used to establish communication between the repos
