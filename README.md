@@ -47,4 +47,4 @@ NOTE :- The name of the remote connection is always used to establish communicat
 
 20. `git add <file1> <file2> <file3>` : this command will add multiple file changes together in the staging area
 
-21. `git add .` --> this command will add all commands from working repo to the staging area
+21. `git add .` --> this command will add all commands from working repo to the staging area.
