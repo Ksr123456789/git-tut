@@ -58,3 +58,4 @@ NOTE :- The name of the remote connection is always used to establish communicat
 -git commit
 -git pull
 -git push
+23. --> merge conflicts are very common scenario.
