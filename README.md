@@ -19,7 +19,7 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 
 9.  `git log` --> list downs all the commits of the repositary. if you want to exit out of git log prompt press 'q'
 
-10. `git restore <file>` --> it remove all files changes from the staging area to be committed. this can be useful if we wrote some dirty piece of code and now no more want it. Instead of deleting every change line by line we can use `git restore` and it will restore last clean version of the file.
+10. `git restore <file>` --> it remove all files changes from the working area to be committed. this can be useful if we wrote some dirty piece of code and now no more want it. Instead of deleting every change line by line we can use `git restore` and it will restore last clean version of the file.
 
 11. `git restore --staged <file>` --> it move back the file changes from staging area to the working area.
     this only works if changes are in your staging area
@@ -41,7 +41,7 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 
 18. `git remote rm <name of remote>` : this command deletes remote connection
 
-19. `git remote rename <oldname> <newname> : this command renames the remote connection.
+19. `git remote rename <oldname> <newname>` : this command renames the remote connection.
 
 NOTE :- The name of the remote connection is always used to establish communication between the repos
 
@@ -57,6 +57,8 @@ NOTE :- The name of the remote connection is always used to establish communicat
 -git add <file>
 -git commit
 -git pull
--git push 23. --> merge conflicts are very common scenario.
+-git push
+
+23. --> merge conflicts are very common scenario.
 
 merge conflicts can occur if multiple people try to make changes to the same file and then collaborate.
