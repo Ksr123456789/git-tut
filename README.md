@@ -4,7 +4,7 @@ Note while you do `git commit` after that vim editor opens, so firstly then clic
 
 1.  `git init` -> powers your folder to be managed by git, and initalises a new empty repositary. It also creates a .git folder that has all the relevant logic to manage versions of your project. If we again give git init command then it will reinitalized the existing git repositary
 
-2.  `working area` --> There can be bunch of files that are not currently handled by git. It means that changes done or to be done in those files are not managed by git yet. A file which is in working area is considered to be not in the staging area. When we do `git status` and we see a bunch of `untracked files` then these are actullay called to be in the working area
+2.  `working area` --> There can be bunch of files or code in those files that are not currently handled by git. It means that changes done or to be done in those files are not managed by git yet. A file which is in working area is considered to be not in the staging area. When we do `git status` and we see a bunch of `untracked files` then these are actullay called to be in the working area
 
 3.  `staging area` --> staging area tells what all files are going to be part of the next version that we will create. this staging area is the place where git knows what changes will be done from the last version to the next version
 
